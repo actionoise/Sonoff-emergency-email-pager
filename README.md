@@ -160,11 +160,29 @@ The device must be connected to a working Wi-Fi network with internet access in 
 
 If Wi-Fi is not available or the saved Wi-Fi credentials are wrong, the device starts its fallback Access Point and can be configured from:
 
-```text
-http://192.168.4.1/
-```
 
----
+## Programming Method
+
+To upload the new firmware to the modified SONOFF device, an FTDI USB-to-TTL serial adapter was used.
+
+The FTDI interface was purchased from AliExpress:
+
+https://a.aliexpress.com/_Ew7QzRU
+
+The required FTDI drivers were installed from the official FTDI website:
+
+https://ftdichip.com/drivers/
+
+After installing the drivers, the correct serial connections were made between TX and RX.
+
+The SONOFF board was powered at 5V DC directly from the FTDI adapter.
+
+To put the board into bootloader mode, the device was powered while keeping the onboard button pressed.
+
+In this mode, the board enters bootloader mode and the new firmware can be uploaded.
+
+The wiring diagram photos have been added to this repository.
+
 
 ## License
 
