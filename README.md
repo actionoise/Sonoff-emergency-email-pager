@@ -183,6 +183,11 @@ In this mode, the board enters bootloader mode and the new firmware can be uploa
 
 The wiring diagram photos have been added to this repository.
 
+Youtube Link : 
+
+https://www.youtube.com/watch?v=nn6rlZxqrRs
+
+https://www.youtube.com/shorts/9_RgruRE8z8
 
 ## License
 
